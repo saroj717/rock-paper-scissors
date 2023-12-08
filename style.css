@@ -1,0 +1,108 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #04111b;
+}
+
+header {
+  padding: 20px;
+  background: #dcd5d5;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-board {
+  background: #dcd5d5;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 60px auto;
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: relative;
+}
+
+.badge {
+  background: tomato;
+  color: white;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 5px 10px;
+}
+
+#user {
+  position: absolute;
+  top: 60px;
+  left: -25px;
+}
+
+#computer {
+  position: absolute;
+  top: 60px;
+  right: -25px;
+}
+
+#tie {
+  position: absolute;
+  background-color: tomato;
+  width: 50px;
+  left: 90px;
+  top: -40px;
+}
+#tie-score {
+  position: absolute;
+  top: -45px;
+  left: 200px;
+  font-size: 2rem;
+  color: tomato;
+}
+.result {
+  font-size: 2rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; 
+  font-weight: bold;
+}
+
+#result {
+  background-color: tomato;
+}
+.images {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.images p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+  display: inline-block; 
+}
+
+.image img{
+  border-radius: 10%;
+  margin: 20px 10px; 
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+#play {
+  color: red;
+  border-radius: 10%;
+}
+
